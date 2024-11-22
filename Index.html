@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius Child - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #ffcc00;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            height: 80px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-color: #ffe680;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .service {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+
+        .service h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .service p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .contact form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .contact form button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .contact form button:hover {
+            background-color: #ffdb4d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Genius Child Logo">
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="hero">
+        <h1>Welcome to Genius Child</h1>
+        <p>Where learning meets creativity. Explore our programs designed for young minds.</p>
+    </div>
+
+    <section id="services" class="services">
+        <div class="service">
+            <h2>Creative Workshops</h2>
+            <p>Interactive activities to spark creativity in children.</p>
+        </div>
+        <div class="service">
+            <h2>STEM Programs</h2>
+            <p>Hands-on learning experiences in science, technology, engineering, and math.</p>
+        </div>
+        <div class="service">
+            <h2>Personalized Learning</h2>
+            <p>Customized programs tailored to your child’s unique interests and needs.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Genius Child. All rights reserved.</p>
+    </footer>
+</body>
+</html>
